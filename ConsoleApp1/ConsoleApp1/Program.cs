@@ -6,4 +6,14 @@ class MyClass
     {
         int[] arr = {1, 2, 3, 4, 5};
     }
+
+    public static int Avg(int[] a)
+    {
+        int avg = 0;
+        for (int i = 0; i < a.Length; i++)
+        {
+            avg += a[i] / a.Length;
+        }
+        return avg;
+    }
 }
