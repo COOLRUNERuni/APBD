@@ -4,6 +4,6 @@ class MyClass
 {
     public static void main(string[] args)
     {
-        int[] arr;
+        int[] arr = {1, 2, 3, 4, 5};
     }
 }
