@@ -2,9 +2,10 @@
 
 class MyClass
 {
-    public static void main(string[] args)
+    public static void Main(string[] args)
     {
         int[] arr = {1, 2, 3, 4, 5};
+        Console.WriteLine(Avg(arr));
     }
 
     public static int Avg(int[] a)
