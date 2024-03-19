@@ -10,12 +10,12 @@ class MyClass
 
     public static int Avg(int[] a)
     {
-        int avg = 0;
+        int av = 0;
         for (int i = 0; i < a.Length; i++)
         {
-            avg += a[i] / a.Length;
+            av += a[i] / a.Length;
         }
-        return avg;
+        return av;
     }
     
     public static int Max(int[] a)
